@@ -9,8 +9,15 @@
 
   input {
     width: 100%;
-    padding: 10px 5px;
+    padding: 15px 5px;
+    border: 0;
   }
+}
+
+.chatListItem {
+  padding: 15px 5px;
+  cursor: pointer;
+  background: #f0f2f5;
 }
 
 .chatContainer {
