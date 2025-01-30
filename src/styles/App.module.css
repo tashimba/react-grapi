@@ -1,0 +1,23 @@
+.header {
+  background: #00a86d;
+  color: white;
+  padding: 15px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  button {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover {
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
